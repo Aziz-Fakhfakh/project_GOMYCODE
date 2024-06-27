@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="hard.css">
+    
+    <link rel="icon" href="/tunisia-icon.jpg">
+</head>
+<body>
+  <header>
+    <nav class="">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/main/mainpage.html">
+            <img src="/tunisia-icon.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            Quiz Tounsi
+          </a>
+        </div>
+      </nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/main/mainpage.html" id="hom">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/sign in/signin.html" id="si">Sign in</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" id="gq">Go Quiz</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/easy/easy.html">Easy</a></li>
+            <li><a class="dropdown-item" href="/medium/medium.html">Medium</a></li>
+            <li><a class="dropdown-item" href="/hard/hard.html">Hard</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/impossible/impossible.html">Impossible</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">test your tunisia knowledge with our quiz!</a>
+        </li>
+      </ul>
+    </nav>
+    <audio src="/The Shadows - Apache (1960) 4K.mp3" autoplay ></audio>
+  </header><br><br>
+      
+  
+  
+  
+  
+  
+  
+  <main>
+    <div class="container">
+        <div id="quiz-container">
+            <h2 id="question"></h2>
+            <form id="quiz-form">
+                <div id="options-container"></div>
+                <button type="submit" class="btn btn-outline-secondary" id="submit-btn" style="display: none;">Submit Answer</button>
+            </form>
+            <div id="feedback"></div>
+        </div>
+        <!-- starting the quiz -->
+        <button type="button" class="btn btn-outline-secondary" id="start-btn">Start Quiz</button>
+        <a href="easy.html"><button type="button" class="btn btn-outline-secondary" id="restart-btn" style="display: none;">Restart Quiz</button></a>
+    </div>
+    <div class="stars">
+      <img src="/download-removebg-preview (12).png" alt="star" style="display: none;" id="s1">
+      <img src="/download-removebg-preview (12).png" alt="star" style="display: none;" id="s2">
+      <img src="/download-removebg-preview (12).png" alt="star" style="display: none;" id="s3">
+      <img src="/download-removebg-preview(12).png" alt="star" style="display: none;" id="ns1">
+      <img src="/download-removebg-preview(12).png" alt="star" style="display: none;" id="ns2">
+      <img src="/download-removebg-preview(12).png" alt="star" style="display: none;" id="ns3">
+    </div>
+  </main> <br><br><hr>
+
+      <footer class="footer">
+        Quiz Tounsi (c) 2024 <br>
+        All copyrights intended 
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="hard.js"></script>
+</body>
+</html>

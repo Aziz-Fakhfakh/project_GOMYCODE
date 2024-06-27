@@ -1,0 +1,35 @@
+.slidee{
+    width: 50%;
+    margin: auto;
+}
+#hom{
+    background-color: red;
+}
+#si{
+    color: red;
+}
+#gq{
+    color: red;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+a{color: red;}
+
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+h3{
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    color: blanchedalmond;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
